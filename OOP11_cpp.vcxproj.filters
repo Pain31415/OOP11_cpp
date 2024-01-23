@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{dcd8b9b9-f990-44b1-95e6-ac489c5cebac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ellipse">
+      <UniqueIdentifier>{0b6d9820-8e45-478c-b862-6986536d6108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Circle">
+      <UniqueIdentifier>{71ce67f7-42a3-4de5-b860-402a0fb2e732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rectangle">
+      <UniqueIdentifier>{ad8346c8-e046-4eda-9639-a2b6d563a38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Square">
+      <UniqueIdentifier>{d342a04e-176e-474d-bb6c-9f3d9f468e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{8c7c2595-bc9b-48b7-b2d9-4bc5d8a33d15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ellipse.cpp">
+      <Filter>Ellipse</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.cpp">
+      <Filter>Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="square.cpp">
+      <Filter>Square</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ellipse.h">
+      <Filter>Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="square.h">
+      <Filter>Square</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
